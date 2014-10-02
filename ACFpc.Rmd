@@ -1,0 +1,119 @@
+---
+title: "Coalitions and Principal-Agent Dynamics: Delegation and the Advocacy Coalition Framework"
+author:
+- name: Matthew C. Nowlin
+  affiliation: Department of Political Science, College of Charleston
+  email: nowlinmc@cofc.edu
+  git: https://github.com/mnowlin
+date: October 2014
+abstract: The Advocacy Coalition Framework (ACF) posits that policy actors within subsystems aggregate into coalitions based on shared values and coordinate to achieve policy objectives. These subsystem actors include elected officials and public managers, which suggests that public managers are likely to belong to one or more advocacy coalition. However, a large literature suggests that the relationship between elected officials and public managers can best be understood within a principal-agent framework. In a principal-agent relationship, elected officials---the principals---delegate some policymaking discretion to public managers---the agents---while exercising mechanisms of control to prevent the agents from "drifting" from the policy objectives of the principal. While the dynamics of political control have been well explored, the implications of those dynamics for the behavior of public managers within advocacy coalitions is less well developed. Do elected officials provide more discretion to public managers within the same coalition and/or exercise more control on managers in opposing coalitions? Are public managers strategic in the face of opportunities (constraints) that come with principals in the same (different) coalition? In this manuscript I explore those questions using an in-depth case study of used nuclear fuel management (UNF). Specifically, I use quantitative text analysis of Congressional hearings, interviews from the summer of 2008 with some key public managers involved in the UNF subsystem, and agency budget data to test hypotheses about coalitional membership, the strategic behavior of public managers, and mechanisms of political control. The findings suggest that public managers are strategic to exploit opportunities and buffer constraints offered by their membership in advocacy coalitions. I conclude with a discussion of the importance for advocacy coalitions of having coalition members that are principals---those that delegate authority---in positions of prominence.
+conference: Paper prepared for the Theoretical Nexus of Public Policy and Management workshop at the University of Arizona, October 16th--18th, 2014. 
+...
+
+```{r, include=FALSE}
+source("ACFpcFINAL.R")
+```
+
+# Introduction
+<!-- constitution and diffuse power hammond and miller, core -->
+Modern industrial countries, such as the United States, are governed through an administrative state that is an increasing complex web of coalitions and networks that are bound together by shared expertise, interests, and/or values. A key concern about the administrative state is keeping it accountable to elected officials, and by extension, the citizen that it governs. Principal-agent theory has been the major theorectial framework through which the issue of administrative accountability has been understood by scholars. In brief, principal-agent theory posits that principals (e.g., elected officials) delegate some policymaking authority to an agent (e.g., the bureaucracy) that possess some knowledge or skills that the principal does not. In addition, principals engage in montioring and enforcement to prevent agents from "drifting" from the goals of the principal [for more see @wood_agency_2010].
+The institutional arrangements that are shaped by principal-agent relationships exist within a larger structure of governance, where governance is defined as "regimes of laws, rules, judical decisions, and administrative practices, that constrain, prescribe, and enable the provision of publicly supported goods and services" [@lynn_improving_2001, 7]. 
+
+A separate body of work, developed under the rubric of "policy theory" [see @sabatier_theories_2014], has put forth multiple theories and frameworks to explain the process of policymaking. While this work has provided multiple insights into policymaking, it has yet to incorporate notions of principal-agent or governance in a comprehensive way [@lavertu_integrating_2009; @robichau_implementation_2009]. Principal-agent theory has greatly enhanced our understanding of the strategic actions of principals in their attempts to control agents, however less well developed is the notion of stategic agents that attempt to work within institutional constraints to further their own preferences [@krause_two-way_1999; @carpenter_forging_2001]. However work in policy theory, specifically the Advocacy Coalition Framework (ACF) argues that bureaucrats are members of advocacy coalitions that share policy preferences and coordinate actions to achieve shared policy goals. Assuming that bureacrats are in these coalitions, how do advocacy coalitions impact the dynamics of principal-agent realtionships? In addition, how are advocacy coalitions created and sustained within and across various governance arraignments? 
+
+In this manuscript I expore how insights from the ACF, principal-agent theory, and governance literatures can shed light on the nature of principals and agents within coalitions that exists across governance structures. I develop theory... using UNF 
+The management of used nuclear fuel (UNF), the potentially hazardous material that results for the production of nuclear energy. has been a vexing policy problem for several decades. In the summer of 2008 the Department of Energy (DOE) officially submitted the license application for Yucca Mountain to the NRC. 
+
+include discussion of the ACF and political control 
+
+include discussion of coalitional governance(?)
+
+# Agency Theory and Delegation
+
+The tradition notion of bureaucratic expertise points to a dictomy between "politics", where debates involve the normative values that inform policy choices  and "administration" where debates involve the best way(s) to implement the political decisions. This implies an "overhead democracy" where bureaucrats are objective experts that use their expertise to provide information to elected leaders and implement their decisions in a manner that displays neutral compentence [@kaufman_emerging_1956; @redford_democracy_1969; @meier_politics_2007; @workman_policymaking_2010]. Overhead democracy, understood in this way, implies a system where citizens delegate authority to elected leaders and elected leaders, in turn, delegate to experts within the bureaucracy [@moe_new_1984]. This process is best understood using principal-agent, or more simply agency theory [@wood_agency_2010].  Agency theory posits that _principals_ are relant on _agents_ to perform tasks that the principal is unwilling or unable to perform, principals therefore delegate some policymaking authority to the agent [@epstein_delegating_1999; @bendor_theories_2001; @lavertu_integrating_2009]. However, bureucrats may make strategic use their experise if their policy preferences differ from that of the principal [@mitnick_theory_1975] to gain more resources [@niskanen_bureaucracy_1971], claim policy jurisdiction [@nicholson-crotty_bureaucratic_2005], and/or build decision-making autonomy [@carpenter_forging_2001]. Therefore, elected officials must excerise some level of "control" over bureaucracies to ensure that their preferences remain reasonably well-aligned. As a result of the possible tenions inherent in the princpal-agent relationship, a large body of work has been built around understanding the dynamics of delegation.
+
+The delegation of policymaking authority from elected officials has been examined in the context of Congressional Dominance [e.g., @weingast_bureaucratic_1983; @mccubbins_congressional_1984], where Congress is the primary principal, Presidental Dominance [e.g., @moe_presidents_1994], where the president is the key political actor, and finally there is a multiple-principal approach [e.g., @spiller_politicians_1990; @hammond_who_1996;  @warren_allies_2012], which posits that multiple principals including congress, the president, and the courts delegate authority and/or exercise control over bureaucratic agencies. I largely draw from the multiple-principals approach, however I argue that advocacy coalitions rather than institutional affiliation is the lens through which delegation should be viewed. 
+
+According to a review by @huber_politics_2006, scholars have laid out four arguements about the nature of delegation, irrespective of the political institution of the elected official. First, elected officials are more likely to delegate to the bureaucracy when there is greater _policy uncertainty_. Elected officials are concerned about achieving particular outcomes, yet they are uncertain about the connection between a policy and its outcome, therefore they rely on information from experts [@esterling_political_2004; @burstein_interest_2007]. Therefore, when policy uncertainty is high elected leaders are more likely to delegate to the bureaucracy [@bawn_political_1995]. Apart from policy uncertainy, the _ally principle_ states that "as the policy preferences of politicans and bureaucrats convergem politicans will delegate more discretion to bureaucrats" [@huber_politics_2006, 260]. In contrast, as preferences diverge politicans become less likely to grant significant autonomy to bureaucrats. Separate from the granting of authority, elected officials create control mechanisms to limit the discretion of bureaucrats. These control mechanisms can be _ex ante_, where they are prior to policy implementation and/or _ex post_, where they following policy implementation [@mccubbins_administrative_1987; @mccubbins_structure_1989]. Often elected officials are indifferent with regard to _ex ante_ or _ex post_ controls, therefore the literature has identified a  _substitution effect_ between the two types of control mechanisms [@bendor_spatial_2004]. The fourth argument presented in the literature is about _political uncertainty_. Political uncertainty deals with the concerns of elected officials that future political choices will alter their current policy choices based on a shift in political preferences. Therefore, enacting coalitions seek to shield bureaucratic delegation from future political choices [@de_figueiredo_electoral_2002]. 
+
+In general, politicans have incentives to delegate some policymaking authority to bureaucracies, however they also have reasons to be concerned about bureaucratic drift and therefore elected officials implent a serious of controls to reign in bureaucratic behavior. While the literature on political control is well developed, questions still remain about what bureaucrats are likely to do with the discretion they are given and/or what factors would motivate bureaucratic drift [@krause_legislative_2010]. 
+
+Some of the early work on the behavior of bureaucrats posited that they are motivated by self-interest [@downs_inside_1967] and/or budget maximizers [@niskanen_bureaucracy_1971].^[Although the empirical evidence for Niskanen's model is mixed, see @blais_budget-maximizing_1991.] The evidence for _self-interest_ as a motivating factoring in bureaucratic behavior is mixed, however interest in terms of policy preferences is likely an important factor given that the preferences of bureaucrats often diverege from that of the elected officials [@aberbach_web_2000]. In addition, @carpenter_forging_2001 aruged that bureaucrats act as entrepreneurs, or advocates, for their agencies and/or their policy goals.  This implies bureucrats that are likely to be policy motivated and perhaps less motivated by power or prestige (i.e., self-interest). Indeed, @gailmard_slackers_2007 found that the development of policy expertise is more likely when public servants are policy motivated. They agrue that "neutral competence is impossible in our model not because 'neutrality' is impossible, but because only those with a stake policy can be induced to become experts" [@gailmard_slackers_2007, 887]. In other words, bureacrats self-select to become experts based on policy motivations. If correct, then the development of expertise and policy preferences are endogoenous and the question of what drives the policy preferences of bureaucrats ought to be paramount with regard to questions of political control. It is likely that the policy preferences and motivations of bureaucratic actors derive, much like other policy actors, from their belief systems as posited by the Advocacy Coalition Framework [@sabatier_policy_1993; @jenkins-smith_advocacy_2014]. 
+
+
+# The Advocacy Coalition Framework
+The Advocacy Coalition Framework (ACF) posits that policymaking occurs within and across semi-autonoums policy subsystems, and these subsystems are the "primiary unit of analysis" when examining the policy process [@jenkins-smith_advocacy_2014, 189]. Subsystems are centered around specific policy areas/domains and include interested policy actors that hope to influence policy decisions within that particular domain. The ACF argues that these actors aggregate into one or more advocacy coalitions based on shared beliefs and coordinate actions and resources to achieve shard policy goals. The beliefs that are central to the ACF are understood as a system that has  three-tiers that are hierarchicaly arranged from the most general (deep core beliefs) to most specific (secondary beliefs). In brief, the belief system includes deep core beliefs that are fundamental axioms (e.g., political ideology) that span multiple policy areas and guide (or constrain) more domain specific beliefs, termed policy core beliefs. Policy core, or subsystem specific, beliefs are policy area specific beliefs and serve as the organizing beliefs for coalitions within a subsystem. Finally, secondary beliefs are the most specific and include the means that could be used to achieve policy goals. 
+
+The types of policy actors that constitute advocacy coaltions include the tradition "iron triangle" of actors such as members of Congress, interest groups, and bureaucratic agencies, however they also include other actors including state and local government officials, non-profit groups, governmental contractors, scientists, and members of the media. As noted, what binds these actors into coalitions are shared values, beliefs, and preferences regarding policy choices [@weible_comparing_2005; @henry_ideology_2011]. The notion that elected officials--the principals--and bureaucracts--the agents--are members of advocacy coalitions have important implications for agency theory, although these implications have not been fully explored.^[Previous work on principal-agent dynamics and the ACF noted that purposive interest groups, due to their focus on normative and/or ideological values, might be more constrained in the types of policies that they can accept [@jenkins-smith_politics_1993].] Related to this, little work has examined the role of elected officials, particularly visiable politicans like members of Congress and the president, in advocacy coalitions. Given that these elected officials can be a vital component of policy development and change, their role, particalurly as principals, should be further explored within the ACF. 
+
+While scant research has examined elected officials and politicans as part of advocacy coalitions, several studies have found that bureaucrats are indeed members of advocacy coalitions [@jenkins-smith_explaining_1991; @jenkins-smith_politics_1993; @ellison_intergovernmental_1998; @sabatier_are_1999; @weible_comparing_2005]. In addition, given their expertise and resources agency officials may be central to coalition success   [@ellison_building_2010]. Much like was argued by @gailmard_slackers_2007,  the notion that bureaucrats are policy-motivated members of advocacy coalitions goes against traditional ideas of neutral compentence and agency responsiveness and implies that bureaucrats are policy motivated and value driven just like other policy actors. 
+
+The connection between core values and beliefs and bureaucratic behavior is a consistent theme in public administration scholarship, particularly the research on Public Service Motivation (PSM) [e.g., @perry_moticational_1990; @houston_public-service_2000; @perry_bringing_2000; @lee_behavioral_2012], and a number of recent studies have examined ideology and it's impact on the behavior of agency officials and other public managers. For example, more liberal managers tended to view the Program Assessment Rating Tool (PART), developed during the George W. Bush administration, as more onerous [@lavertu_government_2013]. A second study found that as university presidents became more conservative, they became more supportive of performace-based funding for universities [@rabovsky_support_2014]. In addition, a growing body of work is interested in measuring the ideal points along a uni-dimensional scale of ideology of executive agencies to allow comparisions between agencies, the president, and members of Congress [@clinton_expert_2008; @bertelli_lengthened_2011; @clinton_separated_2012]. Finally, using the ACF  @sabatier_bureaucrats_1999 found that agency officials held similar beliefs as the interest groups within their coalition.
+
+The above research provides some evidence that bureaucrats are driven by deep core beliefs that influence their policy core beliefs.  However, it is hypothesized that agencies will take a more moderate stance relative to other members of their coalition [@jenkins-smith_advocacy_2014, 195].^[Indeed, this is stated as _Coalition Hypothesis 4_, although as noted by @jenkins-smith_advocacy_2014, it has rarely been tested.] One of the few studies that examined this hypothesis found that executive agencies active within the offshore leasing subsystem tended to take a position between the pro-leasing and anti-leasing coalitions [@jenkins-smith_politics_1993]. In addition, @jenkins-smith_politics_1993 also found that the positions of executive shifted as a result of the election of Ronald Reagan. This moderation and responsiveness to a change in presidents is likely due to the constraints embedded in the principal-agent relationship. The next section explores how the ACF and political control ...
+
+<!-- need more detail from studies 
+include discussion of the ACF and the bureacracy (Nicholson-Crotty 2005, Sabatier, Weible,  ellison and newmark )
+competition suggest strategic behavior (nic-crot)
+However, the role of agencies in coalitions may also be a result of competition over territory and jurisdiction within the policy space [@nicholson-crotty_bureaucratic_2005]. -->
+
+# Coalitions, Delegation, and Governance 
+
+The literature on delegation and advocacy coalitions has largely developed in parrallel without much interaction, despite the fact that they often address overlapping themes. The delegation literature notes that elected officials grant some policy authority to bureaucrats based on the agencies expertise, while simultaneously exersing control and oversight of the agency. The literature developed using the ACF argues that elected officials and bureaucrats, along with other policy actors, are members of advocacy coalitions that are bound by shared values and beliefs and coordinate to achieve shared policy goals. The implications of principals and agents within the same and/or competing coalitions has not been fully explored. In particular, what are the particular control mechanisms that are employed by the enacting coalition and what are the dynamics of oversight when agencies are in the same (different) coalition as the elected officials? In addition, how does having powerful and visiable elected officials within a coalition impact coalition behavior and success? 
+
+To address these questions I posit that delegation, control, and oversight  mechanisms are embedded within the policy designs that coalitions enact. Policy designs typically include the policy core beliefs of the dominant coalition [@jenkins-smith_advocacy_2014], however they also include the institutional, or agency, arraignments through which policy will be implemented [@hall_structures_2000]. Increasingly, these implementation structures have become less hierarchical and more focused on networks of government agencies, contractors, and non-profits. These types of governance structures have important implications for delegation and control. 
+
+hall and o'toole; implementation structures 
+
+dominanted public administration scholarship 
+
+policy designs 
+terry moe creating public bureaucraties 
+ wood and bohte; transaction costs and agency design 
+
+
+
+## Propositions 
+
+congressional versus executive domiance questions best answered through coalitions; who are the dominant coalitions and what principals and agents are in that coalition  
+
+ally principle and the ACF
+
+policy/political uncertainty and governance arraignments that create stable coalitions
+(give agencies buy-in)
+
+bureacrats are belief driven and policy motivated, but can be constrained through political control, hence the more moderate stance 
+
+controversy creates more controls based in policy designs
+
+# Case Selection: Used Nuclear Fuel Management
+
+brief policy history; focus on bureacratic agengies 
+
+## Agencies Involved 
+<!-- # Data and Methods -->
+
+<!-- sources of information; apperance of agencies in congressional hearings(?)--> 
+
+Congressional committee reports?
+
+## Budgets
+
+budgets as ex post control 
+
+# Discussion and Conclusion 
+
+Drawing on the distictions between the type of policy analysts put forward by 
+@jenkins-smith_democratic_1990, bureaucrats can be thought of as
+
+
+\newpage
+
+# References
+\setlength{\parindent}{-0.2in}
+\setlength{\leftskip}{0.2in}
+\setlength{\parskip}{8pt}
+\vspace*{-0.2in}
+\singlespace
+\noindent
+
