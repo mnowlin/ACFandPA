@@ -61,7 +61,10 @@ However, the role of agencies in coalitions may also be a result of competition 
 
 The literature on delegation and advocacy coalitions has largely developed in parrallel without much interaction, despite the fact that they often address overlapping themes. The delegation literature notes that elected officials grant some policy authority to bureaucrats based on the agencies expertise, while simultaneously exersing control and oversight of the agency. The literature developed using the ACF argues that elected officials and bureaucrats, along with other policy actors, are members of advocacy coalitions that are bound by shared values and beliefs and coordinate to achieve shared policy goals. The implications of principals and agents within the same and/or competing coalitions has not been fully explored. In particular, what are the particular control mechanisms that are employed by the enacting coalition and what are the dynamics of oversight when agencies are in the same (different) coalition as the elected officials? In addition, how does having powerful and visiable elected officials within a coalition impact coalition behavior and success? 
 
-To address these questions I posit that delegation, control, and oversight  mechanisms are embedded within the policy designs that coalitions enact. Policy designs typically include the policy core beliefs of the dominant coalition [@jenkins-smith_advocacy_2014], however they also include the institutional, or agency, arraignments through which policy will be implemented [@hall_structures_2000]. Increasingly, these implementation structures have become less hierarchical and more focused on networks of government agencies, contractors, and non-profits. These types of governance structures have important implications for delegation and control. 
+To address these questions I posit that delegation, control, and oversight  mechanisms are embedded within the policy designs that coalitions enact.
+Policy designs are defined as the "content" of policy and include the "rules" (i.e., institutional arraignments) through which actions are required (forbidden), the actors that should undertake those actions, and sanctions for noncompliance [@schneider_policy_1997; @siddiki_dissecting_2011, 81]. In addition, policy designs typically include the policy core beliefs of the dominant coalition [@jenkins-smith_advocacy_2014] and an implementation structure of organizations and agencies charged with implementing the policy [@hall_structures_2000]. Control and oversight mechianisms provide ways for elected officials, acting as principals, to monitor the implementation of the policy by bureaucrats, acting as agents. Increasingly, these implementation structures have become less hierarchical and more focused on networks of government agencies, contractors, and non-profit organizations [@frederickson_whatever_2005]. Therefore, policy designs with embedded institutional arraingements, policy core beliefs, implementation structures, and oversight mechiansims form the foundation of _governance_ within a particular policy area [@lynn_improving_2001]. 
+
+These types of governance structures have important implications for delegation and control. 
 
 hall and o'toole; implementation structures 
 
@@ -88,6 +91,8 @@ controversy creates more controls based in policy designs
 
 # Case Selection: Used Nuclear Fuel Management
 
+The development of the used nuclear fuel subsystem followed from the collapse of the iron triangle that charaterized much of nuclear energy policymaking in the 1950s and 1960s [@walker_road_2009; @nowlin_policy_2014]. Central to the evolvution of the UNF subsystem were several key policymakers and policy designs that included governance structures that ensured a system of "checks and balances" between several key agencies charged with the development and regulation of a repository for used nuclear materials. 
+
 brief policy history; focus on bureacratic agengies 
 
 ## Agencies Involved 
@@ -97,9 +102,12 @@ brief policy history; focus on bureacratic agengies
 
 excerpets from witnesses 
 
+
 ## Budgets
 
 budgets as ex post control 
+
+budget data
 
 # Discussion and Conclusion 
 
